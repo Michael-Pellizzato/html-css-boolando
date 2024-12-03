@@ -31,7 +31,33 @@
 .article-shop{
     border-color: rgb(246, 6, 6);
     border-style: groove;
-    
+    position: relative;
+}
+
+.sco-sos{
+    position: relative;
+}
+
+.sconto-50{
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 450px;
+}
+
+.sost{
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 450px;
+    right: 230px;
+}
+
+.sconto-30{
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 450px;
 }
 
 p{
@@ -42,10 +68,7 @@ p{
     color: red;
 }
 
-.price-row{
-    flex-wrap: nowrap;
-}
-
 .img{
-    height: 400px;
+    height: 500px;
+
 }
