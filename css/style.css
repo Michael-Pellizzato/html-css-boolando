@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 .flex-header{
     display: flex;
     background-color: #FF6900;
@@ -16,11 +20,7 @@
     width: 100px;
 }
 
-
-
 .shop{
-    border-color: black;
-    border-style: groove;
     display: flex;
     flex-direction: row;  
     margin: 30px;
@@ -29,8 +29,6 @@
 }
 
 .article-shop{
-    border-color: rgb(246, 6, 6);
-    border-style: groove;
     position: relative;
 }
 
@@ -50,7 +48,7 @@
     color: white;
     position: absolute;
     top: 450px;
-    right: 230px;
+    right: 220px;
 }
 
 .sconto-30{
@@ -71,4 +69,12 @@ p{
 .img{
     height: 500px;
 
+}
+
+.sost2{
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 450px;
+    right: 265px;
 }
