@@ -41,6 +41,7 @@ body{
     background-color: red;
     position: absolute;
     top: 450px;
+    z-index: 1;
 }
 
 .sost{
@@ -49,6 +50,7 @@ body{
     position: absolute;
     top: 450px;
     right: 220px;
+    z-index: 1;
 }
 
 .sconto-30{
@@ -56,6 +58,7 @@ body{
     background-color: red;
     position: absolute;
     top: 450px;
+    z-index: 1;
 }
 
 p{
@@ -66,11 +69,6 @@ p{
     color: red;
 }
 
-.img{
-    height: 500px;
-
-}
-
 .sost2{
     background-color: green;
     color: white;
@@ -78,3 +76,108 @@ p{
     top: 450px;
     right: 265px;
 }
+
+.img1{
+    height: 500px;
+}
+
+.img1-b{
+    display: none;
+    height: 500px;
+}
+
+.img-hover:hover .img1-b{
+    display: inline-block;
+}
+
+.img-hover:hover .img1{
+    display: none;
+}
+
+.img2{
+    height: 500px;
+}
+
+.img2-b{
+    display: none;
+    height: 500px;
+}
+
+.img-hover:hover .img2-b{
+    display: inline-block;
+}
+
+.img-hover:hover .img2{
+    display: none;
+}
+
+.img3{
+    height: 500px;
+}
+
+.img3-b{
+    display: none;
+    height: 500px;
+}
+
+.img-hover:hover .img3-b{
+    display: inline-block;
+}
+
+.img-hover:hover .img3{
+    display: none;
+}
+
+.img4{
+    height: 500px;
+}
+
+.img4-b{
+    display: none;
+    height: 500px;
+}
+
+.img-hover:hover .img4-b{
+    display: inline-block;
+}
+
+.img-hover:hover .img4{
+    display: none;
+}
+
+.img5{
+    height: 500px;
+}
+
+.img5-b{
+    display: none;
+    height: 500px;
+}
+
+.img-hover:hover .img5-b{
+    display: inline-block;
+}
+
+.img-hover:hover .img5{
+    display: none;
+}
+
+.img6{
+    height: 500px;
+}
+
+.img6-b{
+    display: none;
+    height: 500px;
+}
+
+.img-hover:hover .img6-b{
+    display: inline-block;
+}
+
+.img-hover:hover .img6{
+    display: none;
+}
+
+
+
