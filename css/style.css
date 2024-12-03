@@ -1,0 +1,23 @@
+.flex-header{
+    display: flex;
+    background-color: #FF6900;
+    justify-content: space-around;
+}
+
+.flex-head{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    color: white;
+    gap: 10px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.shop{
+    border-color: black;
+    border-style: groove;
+    
+}
