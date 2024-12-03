@@ -16,8 +16,36 @@
     width: 100px;
 }
 
+
+
 .shop{
     border-color: black;
     border-style: groove;
+    display: flex;
+    flex-direction: row;  
+    margin: 30px;
+    gap: 3%;
+    justify-content: center;
+}
+
+.article-shop{
+    border-color: rgb(246, 6, 6);
+    border-style: groove;
     
+}
+
+p{
+    margin: 0%;
+}
+
+.price-red{
+    color: red;
+}
+
+.price-row{
+    flex-wrap: nowrap;
+}
+
+.img{
+    height: 400px;
 }
