@@ -193,12 +193,12 @@ p{
     color: white;
     display: flex;
     flex-direction: column;
-    column-gap: 1px;
+    padding: 1%;
 }
 
 .right-footer{
     color: white;
     display: flex;
     flex-direction: column;
-    column-gap: 1px;
+    padding: 1%;
 }
