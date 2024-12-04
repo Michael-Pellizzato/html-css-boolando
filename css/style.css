@@ -179,5 +179,23 @@ p{
     display: none;
 }
 
+.footer-flex{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.left-footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    column-gap: 1px;
+}
 
+.right-footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    column-gap: 1px;
+}
